@@ -1,0 +1,1259 @@
+/*********************  Default-CSS  *********************/
+@font-face {
+  font-family: tuskergrotesk_medium;
+  src: url("../fonts/tuskergrotesk_4500medium.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  color: #010000;
+  font-size: 16px;
+  font-weight: 400;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anim {
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+  text-decoration: none;
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+}
+
+a,
+span,
+a:hover,
+a:active,
+button {
+  text-decoration: none;
+}
+
+*::after,
+*::before,
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+* {
+  outline: none !important;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+.cm-overflow {
+  overflow: hidden !important;
+}
+.header_common_btn {
+  min-width: 191px;
+  padding: 7px 15px;
+  background-color: transparent;
+  color: #ff034a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ff034a;
+  border-radius: 42px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header_common_btn:hover {
+  background-color: #ff034a;
+  -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.common_btn {
+  width: 236px;
+  padding: 13px 15px;
+  background-color: #ff034a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 55px;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.common_btn:after {
+  content: " ";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #000;
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  border-radius: 55px;
+  z-index: -1;
+  opacity: 0.05;
+}
+.common_btn:hover {
+  color: #fff;
+  background-color: #000;
+  -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  transform: translate(2px, -2px);
+  transition-delay: 0.2s;
+}
+.common_btn:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+.menu-main a {
+  vertical-align: bottom;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+/*********************  Default-CSS End  *********************/
+/*********************  header CSS Start  *********************/
+.logo_img {
+  max-width: 130px;
+}
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  background-color: #fff;
+  width: 100%;
+  filter: drop-shadow(0px 10px 10px rgba(232, 232, 232, 0.5));
+  padding: 0 0 22px;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_right_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_right_btn p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #242931;
+  margin-right: 25px;
+}
+
+/*********************  header CSS End  *********************/
+/*************  Home banner section CSS start  *************/
+.home_banner_inner_section {
+  display: flex;
+  align-items: center;
+}
+.banner_50_left,
+.banner_50_right {
+  width: 50%;
+  height: 100%;
+}
+.home_banner_section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+}
+.banner_50_right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.banner_50_right img {
+  width: 100%;
+}
+.star_section {
+  display: flex;
+  align-items: center;
+}
+.five_star {
+  display: inline;
+  font: 1em sans-serif;
+}
+.five_star i + i {
+  margin-left: 2px;
+}
+.five_star i {
+  font-size: 16px;
+  color: #ff034a;
+}
+.star_section p {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.banner_50_left h1 {
+  font-size: 40px;
+  font-family: tuskergrotesk_medium;
+  color: #000000;
+  max-width: 425px;
+  text-transform: uppercase;
+  margin: 30px 0 6px;
+  line-height: 1.25;
+}
+.banner_50_left > p.home_dec {
+  line-height: 1.375;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  max-width: 425px;
+}
+.home_banner_img {
+  width: 100%;
+  height: 100%;
+}
+.home_banner_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*************  Home banner section CSS End *************/
+
+/*************  Counte Section CSS Start *************/
+.social_counter_section {
+  background-color: #f9f9f9;
+  padding: 59px 0px;
+}
+.social_count_inner_section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social_info h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff034a;
+  line-height: 1;
+  margin-right: 10px;
+}
+.social_info {
+  display: flex;
+  align-items: center;
+}
+.social_info p {
+  font-size: 20px;
+}
+/*************  Counte Section CSS End *************/
+
+/*************  Counte Section CSS Start *************/
+.features_section {
+  padding: 100px 0;
+}
+.features_inner_section .cm_row {
+  display: flex;
+  margin: 0 -10px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.features_inner_section .cm_col {
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding: 0 10px;
+}
+.features_inner_section .cm_row .cm_col:nth-child(n + 6) {
+  margin-top: 40px;
+}
+.features_inner_section .common_inner_title {
+  text-align: center;
+  max-width: 840px;
+  margin: 0 auto;
+}
+.sub_heading {
+  color: #242931;
+  font-size: 16px;
+  font-weight: 500;
+}
+.features_inner_section .sub_heading {
+  margin-top: 12px;
+}
+.features_info .features_sub_title {
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 500;
+  margin-top: 12px;
+}
+/*************  Counte Section CSS End *************/
+
+/*************  high intensity Section CSS Start *************/
+.high_intensity_section {
+  background-image: url(../image/bg-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 0 220px;
+}
+.big_text_title {
+  font-size: 90px;
+  font-family: tuskergrotesk_medium;
+  text-transform: uppercase;
+}
+.high_intensity_section .big_text_title {
+  max-width: 800px;
+}
+.high_intensity_inner_section p {
+  margin: 30px 0;
+  max-width: 510px;
+  font-size: 21px;
+  color: #242931;
+  font-weight: 500;
+}
+.black_btn {
+  background-color: #000000;
+  min-width: 325px;
+  padding: 15px 15px;
+  font-size: 20px;
+  position: relative;
+  border-radius: 60px;
+}
+.black_btn:after {
+  content: " ";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #ff034a;
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  border-radius: 60px;
+  z-index: -1;
+  opacity: 0.05;
+}
+.black_btn:hover {
+  color: #fff;
+  background-color: #ff034a;
+  -webkit-box-shadow: 2px 2px 10px rgb(37 42 50 / 50%);
+  box-shadow: 2px 2px 10px rgb(37 42 50 / 50%);
+  transform: translate(2px, -2px);
+  transition-delay: 0.2s;
+}
+.black_btn:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+/*************  high intensity Section CSS End *************/
+
+/*************  workout Section Section CSS Start *************/
+.workout_left_section,
+.workout_right_section {
+  width: 50%;
+}
+.workout_section {
+  padding: 100px 0 0;
+}
+.workout_section .container {
+  max-width: 1080px;
+}
+.workout_inner_section .common_inner_title h3 {
+  text-align: left;
+}
+.workout_inner_section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pr_text_color {
+  color: #ff034a;
+}
+.workout_left_section .heading_mar {
+  margin: 12px 0 24px;
+}
+.workout_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.workout_list li {
+  width: 50%;
+  padding: 0 15px 0 28px;
+  position: relative;
+}
+.workout_list li:after {
+  content: " ";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ff034a;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+.workout_list li:nth-child(n + 3) {
+  margin-top: 18px;
+}
+.workout_list li p {
+  font-size: 14px;
+  font-weight: 500;
+}
+/*************  workout Section Section CSS End *************/
+/*************  Sweat Section CSS Start *************/
+.sweat_section .banner_50_right {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.sweat_section .home_banner_inner_section {
+  justify-content: flex-end;
+}
+.sweat_section .banner_50_left,
+.banner_50_right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.sweat_section .sub_heading {
+  max-width: 410px;
+  margin: 20px auto 40px;
+}
+.sweat_section .common_inner_title h3 {
+  max-width: 510px;
+  margin-top: 20px;
+}
+/*************  Sweat Section CSS End *************/
+
+/*************  Meet The Trainers Section CSS Start *************/
+.meet_the_trainer_inner_section .sub_heading {
+  max-width: 525px;
+  margin: 12px auto 0;
+  text-align: center;
+  font-weight: 500;
+}
+.meet_cm_row {
+  display: flex;
+  margin: 60px -10px 0;
+  justify-content: center;
+  overflow: hidden;
+}
+.meet_cm_col {
+  padding: 0 10px;
+  min-width: 320px;
+  position: relative;
+}
+.meet_cm_col:after {
+  content: " ";
+  width: calc(100% - 20px);
+  height: 122px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(36, 41, 49, 0.5) 100%
+  );
+  z-index: 1;
+  border-radius: 0 0 10px 10px;
+  pointer-events: none;
+}
+.trainer_img_wrap {
+  width: 100%;
+  height: 100%;
+}
+.trainer_img_wrap img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  height: 425px;
+  object-position: top;
+}
+.meet_the_trainer_section {
+  padding: 100px 0;
+}
+.meet_info {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  z-index: 2;
+}
+.meet_info h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.meet_info p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+/*************  Meet The Trainers Section CSS End *************/
+
+/*********************  Footer CSS Start *********************/
+.footer-wrapper {
+  padding: 80px 0 145px;
+  border-top: 1px solid #c4cbd8;
+}
+footer .container {
+  max-width: 1115px;
+}
+.footer_block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.footer_col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer_logo {
+  margin-bottom: 15px;
+}
+.footer_desc p {
+  color: #242931;
+  font-size: 17px;
+  font-weight: 500;
+  max-width: 180px;
+}
+.footer_social_icon ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  max-width: 170px;
+  width: 100%;
+}
+.footer_social_icon ul li a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #242933;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.4s ease 0s;
+}
+.footer_social_icon ul li a:hover {
+  background-color: #f5195b;
+}
+.footer_menu_title h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #242933;
+  margin-bottom: 10px;
+}
+.footer_menu ul li a {
+  color: #242931;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  line-height: 25px;
+  transition: all 0.4s ease 0s;
+}
+.footer_menu ul li a:hover,
+.mobile_footer_menu ul li a:hover {
+  color: #f5195b;
+  transform: translateX(4px);
+}
+.mobile_footer_menu {
+  display: none;
+}
+.mobile_footer_menu ul li + li {
+  margin-top: 20px;
+}
+.mobile_footer_menu ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #242931;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+}
+.need_to_help_btn .common_btn {
+  max-width: 180px;
+  padding: 15px 15px;
+}
+.need_to_help_btn {
+  margin-top: 30px;
+}
+.copyright_block {
+  padding-top: 100px;
+}
+.copyright_block p {
+  color: #242931;
+  font-size: 16px;
+  font-weight: 600;
+}
+.copyright_block p a {
+  color: #242931;
+}
+.copyright_block p a:hover {
+  color: #ff034a;
+}
+
+/*********************  Footer CSS End  *********************/
+
+/*********************  What People Have CSS Start  *********************/
+.what_people_have_wrapper {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+.what_people_have_wrapper .container {
+  max-width: 1115px;
+}
+.common_inner_title h3 {
+  font-size: 34px;
+  color: #242931;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3;
+}
+.common_what_people_block {
+  margin-top: 50px;
+}
+.common_what_people_box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 2px 2px 4px #e9e9e9;
+}
+.common_what_people_box + .common_what_people_box {
+  margin-top: 20px;
+}
+.common_star_icon span {
+  color: #ff034a;
+  font-size: 18px;
+}
+.common_what_people_box .common_desc {
+  margin: 25px 0;
+}
+.common_what_people_box .common_desc p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #242931;
+}
+.common_people_name p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #242931;
+}
+/*********************  What People Have CSS End  *********************/
+
+/*********************  FAQ CSS Start  *********************/
+.faq_wrapper {
+  padding: 100px 0;
+}
+.faq_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding: 60px 0;
+}
+.faq_col {
+  width: 50%;
+  padding: 0 15px;
+}
+.cm_accordion_wrap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #e9e9e9;
+  padding: 25px 0;
+}
+.cm_accordion_wrap + .cm_accordion_wrap {
+  margin-top: 20px;
+}
+button.course-accordion {
+  position: relative;
+  color: #242931;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0px 45px 0px 20px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+button.course-accordion.active {
+  padding-bottom: 20px;
+}
+button.course-accordion:after {
+  content: "\f107 ";
+  position: absolute;
+  right: 25px;
+  color: #ff034a;
+  font-family: FontAwesome;
+  top: 0px;
+  transition: all 0.4s ease 0s;
+  font-size: 25px;
+}
+button.course-accordion.active:after {
+  transform: rotate(180deg);
+}
+.course-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding: 0 20px;
+}
+.course-panel p {
+  font-size: 14px;
+}
+.faq_wrapper .common_section_btn .common_btn {
+  margin: 0 auto;
+}
+
+/*********************  FAQ CSS End  *********************/
+
+/*********************  Join Our Fitness CSS Start  *********************/
+.join_our_fitness_wrapper {
+  padding: 100px 0 0;
+}
+.common_inner_title p {
+  font-size: 16px;
+  color: #242931;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5px;
+}
+.workout_inner_section .common_inner_title p {
+  text-align: left;
+}
+.workout_inner_section .common_inner_title p.pr_text_color {
+  color: #ff034a;
+}
+/*********************  Join Our Fitness CSS End *********************/
+
+/*********************  Cancel Anytime CSS Start *********************/
+.cancel_anytime_wrapper {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+.cancel_anytime_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.cancel_col {
+  width: 33.333%;
+}
+.cancel_anytime_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cancel_icon {
+  width: 65px;
+  margin-right: 30px;
+}
+.cancel_anytime_title h4 {
+  font-size: 24px;
+  color: #242931;
+  font-weight: 500;
+}
+.cancel_anytime_title p {
+  font-size: 16px;
+  color: #ff034a;
+  font-weight: 500;
+}
+.cancel_anytime_title {
+  text-align: left;
+}
+
+/*********************  Cancel Anytime CSS End *********************/
+
+/*********************  Commit To Getting CSS Start *********************/
+.commit_to_getting_wrapper {
+  padding-top: 100px;
+}
+.commit_to_getting_wrapper .common_inner_title h3 {
+  font-weight: 400;
+}
+.commit_to_getting_wrapper .common_inner_title h4 {
+  font-weight: 700;
+  color: #ff034a;
+  font-size: 34px;
+  text-align: center;
+}
+.select_your_plan_block {
+  background-color: #eceef4;
+  position: relative;
+  margin-top: 40px;
+}
+.syp_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding: 40px 0;
+}
+.syp_col_6 {
+  width: 60%;
+  padding: 0 15px;
+}
+.syp_col_4 {
+  padding: 0 15px;
+  padding-right: 0;
+  width: 42%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+}
+.syp_common_title h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #242931;
+  margin-bottom: 20px;
+}
+.syp_common_title h3 sup {
+  margin-right: 4px;
+  font-size: 0.5em;
+}
+.syp_right_img {
+  width: 100%;
+  height: 100%;
+}
+.syp_right_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.select_your_plan_box {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #ff034a;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.free_trial_block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.free_trial_label {
+  padding: 10px 25px;
+  background-color: #ff034a;
+  border-radius: 8px 0 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.free_trial_content p {
+  font-weight: 700;
+  color: #242931;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.free_trial_content p span {
+  font-weight: 500;
+}
+.online_exc_content {
+  padding: 20px 25px 30px;
+}
+.online_exc_label p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff034a;
+}
+.active_exc_label h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #242931;
+}
+.trial_sub_exc_label p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #242931;
+  margin: 15px 0 20px;
+}
+.no_lock_label p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #b4bdd2;
+}
+.sign_up_fg_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px 30px;
+}
+.fg_col {
+  width: 50%;
+  padding: 0 10px;
+}
+.common_fg_btn a {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 100px;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+}
+.common_fg_btn a svg {
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.common_fg_btn a.fb_sign_up_btn {
+  background-color: #505fb5;
+}
+.common_fg_btn a.gg_sign_up_btn {
+  background-color: #ff034a;
+}
+.common_fg_btn a.gg_sign_up_btn:hover {
+  background-color: #d6003c;
+}
+.common_fg_btn a.fb_sign_up_btn:hover {
+  background-color: #404d96;
+}
+.join_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.trainer_img_wrap video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 425px;
+}
+.play_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.all_my_video.active + .play_btn {
+  display: none;
+}
+.credit_title span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #cbcccf;
+}
+/*********************  Commit To Getting CSS End *********************/
+.add_billing_btn {
+  display: flex;
+  margin-bottom: 30px;
+}
+.add_billing_btn a {
+  width: 100%;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 100px;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+  background-color: #cbcccf;
+}
+.add_billing_btn a:hover {
+  background-color: #000;
+}
+.radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+}
+.radio input[type="radio"] + .radio-label:before {
+  content: "";
+  cursor: pointer;
+  background: #f4f4f4;
+  border-radius: 100%;
+  border: 1px solid #b4b4b4;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-right: 1em;
+  transition: all 250ms ease;
+}
+.radio input[type="radio"]:checked + .radio-label:before {
+  background-color: #ff034a;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.radio input[type="radio"]:focus + .radio-label:before {
+  outline: none;
+  border-color: #ff034a;
+}
+.radio-label {
+  display: flex;
+  position: relative;
+  padding-left: 40px;
+}
+.credit_title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.credit_title svg {
+  margin-right: 16px;
+}
+.credit_section {
+  padding: 37px 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.radio + .radio {
+  margin-left: 110px;
+}
+.syp_mobile {
+  display: none;
+}
+
+/* 
+    tuskergrotesk_medium
+*/
+
+.britanny-trainer-card {
+  object-position: 92% 5% !important;
+}
+
+.meet_cm_row {
+  max-height: 425px;
+}
+
+.trainer-prev-btn,
+.trainer-next-btn,
+.trainer-sec-prev-btn,
+.trainer-sec-next-btn {
+  position: absolute;
+  z-index: 9;
+  left: 5px;
+  margin-top: 212.5px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: hsla(0, 0%, 78%, 0.9);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.trainer-next-btn,
+.trainer-sec-next-btn {
+  right: 5px !important;
+  left: auto !important;
+}
+.trainer-next-btn i,
+.trainer-prev-btn i,
+.trainer-sec-next-btn i,
+.trainer-sec-prev-btn i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 400;
+  z-index: 9999999;
+}
+
+#myVideo2 {
+  object-position: bottom;
+}
+
+/*********************  Connecting with Section CSS Start *********************/
+.connecting_with_section{
+  padding: 100px 0 0;
+}
+.connecting_with_row{
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.connecting_with_col{
+  width: 50%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+.connecting_with_col .common_inner_title h3{
+  margin-bottom: 15px;
+}
+.connecting_with_col .common_inner_title h3,
+.connecting_with_col .sub_heading{
+  text-align: left;
+}
+.connecting_with_col .sub_heading + .sub_heading{
+  margin: 35px 0 0;
+}
+.connecting_img img{
+  border-radius: 20px;
+}
+.connecting_with_left_info .common_btn{
+  margin-top: 15px;
+}
+/*********************  Connecting with Section CSS End *********************/
+
+/*********************  Variety Of Workouts Section CSS Start *********************/
+.workouts_img{
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.workouts_img a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.workouts_img a img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.variety_of_workouts_inner_section .slick-track{
+  display: flex;
+}
+.variety_of_workouts_inner_section  .slick-slide{
+  height: unset;
+}
+.variety_of_workouts_inner_section .slick-list{
+  overflow: visible;
+}
+.workouts_slider_1 .slick-list,
+.workouts_slider_3 .slick-list{
+  left: -6vw;
+}
+.variety_of_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.variety_of_workouts_section {
+  padding: 100px 0 0;
+}
+.variety_of_workouts_section .common_inner_title p{
+  margin: 15px 0 10px;
+  max-width: 750px;
+}
+.variety_of_info > .sub_heading{
+  margin: 10px 0 40px;
+}
+.workouts_img_inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.program-name {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  background: rgba(0,0,0,.4);
+  top: 0px;
+  pointer-events: none;
+  border-radius: 8px;
+}
+/*********************  Variety Of Workouts Section CSS End *********************/

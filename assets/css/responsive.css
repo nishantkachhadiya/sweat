@@ -1,0 +1,1032 @@
+@media screen and (min-width: 1441px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .workout_section .container {
+    max-width: 1120px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  /*************  Home banner section CSS Start *************/
+  header {
+    padding: 0 0 22px;
+  }
+  body {
+    padding-top: 92px;
+  }
+  .home_banner_section {
+    min-height: 600px;
+  }
+  .banner_50_left h1 {
+    font-size: 36px;
+    max-width: 520px;
+  }
+  .common_btn {
+    width: 220px;
+    padding: 10px 15px;
+  }
+  .banner_50_left > p.home_dec {
+    margin-bottom: 25px;
+    padding-right: 15px;
+  }
+  .banner_50_left h1 {
+    margin: 25px 0 6px;
+  }
+  /*************  Home banner section CSS End *************/
+
+  /*************  Counte Section CSS Start *************/
+  .social_info h3 {
+    font-size: 36px;
+  }
+  .social_info p {
+    font-size: 18px;
+  }
+  /*************  Counte Section CSS End *************/
+
+  /*************  Counte Section CSS Start *************/
+  .features_section {
+    padding: 80px 0;
+  }
+  .features_inner_section .cm_row {
+    margin-top: 50px;
+  }
+  /*************  Counte Section CSS End *************/
+
+  /*************  high intensity Section CSS Start *************/
+  .big_text_title {
+    font-size: 80px;
+  }
+  .high_intensity_inner_section p {
+    font-size: 20px;
+  }
+  /*************  high intensity Section CSS End *************/
+
+  /*************  workout Section Section CSS Start *************/
+  .workout_left_section .heading_mar {
+    margin: 12px 0 20px;
+  }
+  .workout_section {
+    padding: 80px 0 0;
+  }
+  /*************  workout Section Section CSS End *************/
+
+  /*************  Sweat Section CSS Start *************/
+  .sweat_section .sub_heading {
+    margin: 15px auto 30px;
+  }
+  .sweat_section .common_inner_title h3 {
+    margin-top: 15px;
+  }
+  .sweat_section .sub_heading {
+    margin: 15px auto 25px;
+  }
+  /*************  Sweat Section CSS End *************/
+
+  /*************  Meet The Trainers Section CSS Start *************/
+  .meet_cm_row {
+    margin: 50px -10px 0;
+  }
+  .meet_the_trainer_section {
+    padding: 80px 0;
+  }
+  /*************  Meet The Trainers Section CSS End *************/
+
+  /*********************  Commit To Getting CSS start *********************/
+  .join_our_fitness_wrapper {
+    padding: 80px 0 0;
+  }
+  .join_btn {
+    margin-top: 50px;
+  }
+  /*********************  Commit To Getting CSS End *********************/
+
+  /*********************  Plan Section CSS Start *********************/
+  .select_your_plan_box,
+  .add_billing_btn {
+    margin-bottom: 25px;
+  }
+  .sign_up_fg_row {
+    margin: 0 -15px 25px;
+  }
+  .syp_common_title h3 {
+    margin-bottom: 15px;
+  }
+  .common_inner_title h3,
+  .commit_to_getting_wrapper .common_inner_title h4 {
+    font-size: 32px;
+  }
+  .commit_to_getting_wrapper {
+    padding-top: 80px;
+  }
+  .syp_col_4 {
+    width: 40%;
+  }
+  /*********************  Plan Section CSS End *********************/
+
+  /*********************  Connecting with Section CSS Start *********************/
+  .connecting_with_section,
+  .variety_of_workouts_section {
+    padding: 80px 0 0;
+  }
+  /*********************  Connecting with Section CSS End *********************/
+}
+@media screen and (max-width: 1440px) {
+  /*************  Home banner section CSS Start *************/
+  header {
+    padding: 0 0 22px;
+  }
+  body {
+    padding-top: 86px;
+  }
+  .container,
+  .workout_section .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+  }
+  .home_banner_section {
+    min-height: 520px;
+  }
+  /*************  Home banner section CSS End *************/
+
+  /*************  high intensity Section CSS Start *************/
+  .big_text_title {
+    font-size: 72px;
+  }
+  /*************  high intensity Section CSS End *************/
+
+  /*************  Sweat Section CSS Start *************/
+  .clock_img img {
+    max-width: 320px;
+  }
+  /*************  Sweat Section CSS End *************/
+
+  /*************  Meet The Trainers Section CSS Start *************/
+  .meet_cm_row {
+    margin: 40px -10px 0;
+  }
+  /*************  Meet The Trainers Section CSS End *************/
+
+  /*********************  Plan Section CSS Start *********************/
+  .syp_row {
+    padding: 30px 0;
+  }
+  .add_billing_btn a,
+  .common_fg_btn a {
+    padding: 12px 15px;
+  }
+  .credit_section {
+    padding: 30px 15px;
+  }
+  /*********************  Plan Section CSS End *********************/
+}
+@media screen and (max-width: 1360px) {
+  /*************  Home banner section CSS Start *************/
+  .home_banner_section {
+    min-height: 500px;
+  }
+  /*************  Home banner section CSS End *************/
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1199px) {
+  /*************  Home banner section CSS Start *************/
+  body {
+    padding: 86px 0 0;
+  }
+  .banner_50_left h1 {
+    font-size: 32px;
+    max-width: 460px;
+  }
+  .home_banner_section {
+    min-height: 430px;
+  }
+  .banner_50_left > p.home_dec {
+    margin-bottom: 20px;
+  }
+  .banner_50_left h1 {
+    margin: 20px 0 5px;
+  }
+  header {
+    padding: 22px 0;
+  }
+  /*************  Home banner section CSS End *************/
+
+  /*************  high intensity Section CSS Start *************/
+  .high_intensity_section {
+    background-position: 60%;
+    padding: 100px 0 150px;
+  }
+  .features_section {
+    padding: 70px 0;
+  }
+  /*************  high intensity Section CSS End *************/
+
+  /*************  workout Section Section CSS Start *************/
+  .workout_section {
+    padding: 70px 0 0;
+  }
+  .workout_list {
+    margin: 22px 0;
+  }
+  /*************  workout Section Section CSS End *************/
+
+  /*************  Sweat Section CSS Start *************/
+  .sweat_section .common_inner_title h3 {
+    margin-top: 0;
+  }
+  /*************  Sweat Section CSS End *************/
+
+  /*************  Meet The Trainers Section CSS Start *************/
+  .meet_cm_row {
+    margin: 30px -10px 0;
+  }
+  .meet_the_trainer_section {
+    padding: 70px 0;
+  }
+  /*************  Meet The Trainers Section CSS End *************/
+
+  /*********************  Commit To Getting CSS start *********************/
+  .join_our_fitness_wrapper {
+    padding: 70px 0 0;
+  }
+  /*********************  Commit To Getting CSS End *********************/
+
+  /*********************  Plan Section CSS Start *********************/
+  .syp_col_4 {
+    width: 45%;
+  }
+  .syp_col_6 {
+    width: 55%;
+  }
+  .active_exc_label h3,
+  .syp_common_title h3 {
+    font-size: 22px;
+  }
+  .online_exc_content {
+    padding: 20px 20px 30px;
+  }
+  .sign_up_fg_row {
+    margin: 0px -15px 20px;
+  }
+  .select_your_plan_box,
+  .add_billing_btn {
+    margin-bottom: 20px;
+  }
+  .credit_section {
+    padding: 25px 15px;
+  }
+  .syp_common_title h3 {
+    margin-bottom: 10px;
+  }
+  .common_fg_btn a {
+    font-size: 16px;
+  }
+  .common_fg_btn a svg {
+    margin-right: 7px;
+  }
+  .add_billing_btn a,
+  .common_fg_btn a {
+    padding: 12px 9px;
+  }
+  .radio + .radio {
+    margin-left: 50px;
+  }
+  .online_exc_content {
+    padding: 15px 20px 20px;
+  }
+  .common_fg_btn,
+  .add_billing_btn a,
+  .common_fg_btn a {
+    height: 100%;
+  }
+  .common_inner_title h3,
+  .commit_to_getting_wrapper .common_inner_title h4 {
+    font-size: 30px;
+  }
+  .commit_to_getting_wrapper {
+    padding-top: 70px;
+  }
+  /*********************  Plan Section CSS End *********************/
+}
+@media screen and (max-width: 991px) {
+  .main-wrapper {
+    overflow-x: hidden;
+  }
+  /*************  Home banner section CSS Start *************/
+  .home_banner_section {
+    flex-wrap: wrap;
+    min-height: unset;
+  }
+  .home_banner_section .container {
+    order: 2;
+  }
+  .banner_50_right {
+    position: unset;
+    width: 100%;
+    order: 1;
+    height: 600px;
+  }
+  .banner_50_left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0 40px;
+  }
+  /*************  Home banner section CSS End *************/
+
+  /*************  Counte Section CSS Start *************/
+  .social_count_inner_section {
+    justify-content: space-between;
+  }
+  /*************  Counte Section CSS End *************/
+
+  /*************  Counte Section CSS Start *************/
+  .features_inner_section .cm_col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .features_inner_section .cm_row .cm_col:nth-child(n + 5) {
+    margin-top: 30px;
+  }
+  /*************  Counte Section CSS End *************/
+
+  /*************  workout Section Section CSS Start *************/
+  .sub_heading {
+    font-size: 14px;
+  }
+  /*************  workout Section Section CSS End *************/
+
+  /*************  workout Section Section CSS Start *************/
+  .workout_left_section {
+    order: 2;
+    width: 100%;
+  }
+  .workout_right_section {
+    order: 1;
+    width: 100%;
+  }
+  .workout_img {
+    text-align: center;
+  }
+  .workout_section {
+    padding: 60px 0 0;
+  }
+  .workout_left_section {
+    padding-top: 15px;
+  }
+  /*************  workout Section Section CSS End *************/
+
+  /*************  Sweat Section CSS Start *************/
+  .sweat_section .banner_50_right {
+    position: unset;
+  }
+  .sweat_section .home_banner_inner_section {
+    justify-content: center;
+  }
+  .sweat_section .banner_50_right {
+    order: 1;
+  }
+  .sweat_section.home_banner_section .container {
+    order: 1;
+  }
+  .sweat_section .banner_50_left,
+  .banner_50_right {
+    padding-top: 0px;
+  }
+  .sweat_section .banner_50_left {
+    width: 100%;
+  }
+  .sweat_section .common_inner_title h3 {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  /*************  Sweat Section CSS End *************/
+
+  /*************  Meet The Trainers Section CSS Start *************/
+  .meet_the_trainer_inner_section .sub_heading {
+    max-width: 450px;
+  }
+  .meet_the_trainer_inner_section .common_inner_title {
+    padding: 0 15px;
+  }
+  /*************  Meet The Trainers Section CSS End *************/
+
+  .what_people_have_wrapper {
+    padding: 60px 0;
+  }
+  .common_what_people_box {
+    padding: 20px;
+  }
+  .common_what_people_box .common_desc {
+    margin: 20px 0;
+  }
+  .common_inner_title h3 {
+    font-size: 22px;
+  }
+  .common_what_people_block {
+    margin-top: 30px;
+  }
+  .common_star_icon span {
+    font-size: 16px;
+  }
+  .footer-wrapper,
+  .faq_wrapper {
+    padding: 60px 0;
+  }
+  .cancel_icon {
+    width: 40px;
+    margin-right: 20px;
+  }
+  .cancel_icon svg {
+    width: 100%;
+    height: 100%;
+  }
+  .cancel_anytime_title h4 {
+    font-size: 20px;
+  }
+  .cancel_anytime_title p {
+    font-size: 14px;
+  }
+  .join_btn {
+    margin-top: 40px;
+  }
+
+  /*********************  Plan Section CSS Start *********************/
+  .syp_col_4,
+  .syp_col_6 {
+    width: 100%;
+  }
+  .syp_col_4 {
+    position: unset;
+  }
+  .syp_dektop {
+    display: none;
+  }
+  .syp_mobile {
+    display: block;
+  }
+  .syp_col_4 {
+    padding: 0;
+  }
+  .syp_row {
+    padding: 50px 0;
+  }
+  .common_fg_btn a {
+    font-size: 18px;
+  }
+  .add_billing_btn a,
+  .common_fg_btn a {
+    padding: 16px 9px;
+  }
+  .commit_to_getting_wrapper {
+    padding-top: 60px;
+  }
+  .common_inner_title h3,
+  .commit_to_getting_wrapper .common_inner_title h4 {
+    font-size: 26px;
+  }
+  /*********************  Plan Section CSS End *********************/
+
+  /*********************  Connecting with Section CSS Start *********************/
+  .connecting_with_col .sub_heading + .sub_heading {
+    margin: 25px 0 0;
+  }
+  .connecting_with_section,
+  .variety_of_workouts_section {
+    padding: 60px 0 0;
+  }
+  /*********************  Connecting with Section CSS End *********************/
+}
+@media screen and (max-width: 767px) {
+  .trainer-prev-btn.slick-arrow,
+  .trainer-next-btn.slick-arrow {
+    height: 45px !important;
+    width: 45px !important;
+  }
+  .trainer-prev-btn.slick-arrow i,
+  .trainer-next-btn.slick-arrow i {
+    font-size: 2em !important;
+  }
+  .social_info h3 {
+    font-size: 30px;
+  }
+  /*************  Home banner section CSS Start *************/
+  .banner_50_right {
+    height: 480px;
+  }
+  .banner_50_left h1 {
+    font-size: 30px;
+    max-width: 430px;
+  }
+  .common_btn {
+    font-size: 16px;
+    padding: 9px 15px;
+    border-radius: 46px;
+  }
+  .menu_right_btn p {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 8px 15px;
+    border-top: 1px solid #ff034a;
+  }
+  body {
+    padding: 126px 0 0;
+  }
+  header {
+    padding: 20px 0;
+  }
+  /*************  Home banner section CSS End *************/
+
+  /*************  Counte Section CSS Start *************/
+  .features_inner_section .cm_col {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .features_inner_section .cm_row .cm_col:nth-child(n + 4) {
+    margin-top: 25px;
+  }
+  .features_info .features_sub_title {
+    margin-top: 8px;
+  }
+  .features_section {
+    padding: 60px 0;
+  }
+  .social_counter_section {
+    padding: 30px 0px;
+  }
+  .social_count_inner_section {
+    flex-direction: column;
+  }
+  .social_count_inner_section {
+    display: inline-block;
+  }
+  .social_counter_section .container {
+    text-align: center;
+  }
+  .social_info + .social_info {
+    margin-top: 20px;
+  }
+  /*************  Counte Section CSS End *************/
+
+  /*************  high intensity Section CSS Start *************/
+  .big_text_title {
+    font-size: 62px;
+  }
+  .high_intensity_inner_section p {
+    font-size: 18px;
+    margin: 25px 0;
+  }
+  .high_intensity_section {
+    padding: 70px 0 100px;
+  }
+  .big_text_title {
+    font-size: 60px;
+  }
+  .high_intensity_inner_section p {
+    margin: 20px 0;
+  }
+  .high_intensity_section .big_text_title {
+    max-width: 500px;
+  }
+  .meet_the_trainer_section {
+    padding: 60px 0;
+  }
+  /*************  high intensity Section CSS End *************/
+
+  .footer_col_2,
+  .footer_col_3,
+  .footer_col_4 {
+    display: none;
+  }
+  .mobile_footer_menu {
+    display: block;
+    padding: 0 15px;
+  }
+  .footer_col {
+    width: 100%;
+  }
+  .footer-wrapper {
+    padding: 40px 0;
+  }
+  .footer_desc p {
+    max-width: 100%;
+  }
+  .footer_social_icon ul {
+    padding: 30px 0;
+  }
+  .copyright_block {
+    padding-top: 60px;
+  }
+  .need_to_help_btn .common_btn {
+    max-width: 160px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .mobile_footer_menu ul li a {
+    font-size: 16px;
+  }
+  .common_what_people_box + .common_what_people_box {
+    margin-top: 15px;
+  }
+  .faq_col {
+    width: 100%;
+  }
+  .cm_accordion_wrap {
+    padding: 15px 0;
+  }
+  button.course-accordion {
+    padding: 0px 40px 0px 15px;
+  }
+  .course-panel {
+    padding: 0 15px;
+  }
+  button.course-accordion:after {
+    top: 0px;
+    right: 15px;
+  }
+  .faq_row {
+    padding: 30px 0;
+  }
+  .cm_accordion_wrap + .cm_accordion_wrap,
+  .faq_col + .faq_col {
+    margin-top: 15px;
+  }
+  .cancel_anytime_wrapper {
+    display: none;
+  }
+
+  /*********************  Commit To Getting CSS start *********************/
+  .join_our_fitness_wrapper {
+    padding: 60px 0 0;
+  }
+  /*********************  Commit To Getting CSS End *********************/
+
+  /*********************  Plan Section CSS Start *********************/
+  .active_exc_label h3,
+  .syp_common_title h3 {
+    font-size: 20px;
+  }
+  .syp_common_title h3 sup {
+    font-size: 14px;
+  }
+  .free_trial_label {
+    width: 100%;
+    text-align: center;
+  }
+  .free_trial_content {
+    width: 100%;
+  }
+  .free_trial_content p {
+    margin: 15px 0 0;
+    text-align: center;
+  }
+  .free_trial_content p span {
+    display: block;
+  }
+  .workout_inner_section .common_inner_title p,
+  .workout_inner_section .common_inner_title p.pr_text_color {
+    font-size: 14px;
+  }
+  .common_inner_title h3,
+  .commit_to_getting_wrapper .common_inner_title h4 {
+    font-size: 22px;
+  }
+  /*********************  Plan Section CSS End *********************/
+
+  /*********************  Connecting with Section CSS Start *********************/
+  .connecting_with_col .sub_heading + .sub_heading {
+    margin: 20px 0 0;
+  }
+  .connecting_with_col{
+    width: 100%;
+  }
+  .connecting_img{
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .connecting_with_col{
+    order: 1;
+  }
+  .connecting_with_left_info.connecting_with_col{
+    order: 2;
+    margin-top: 30px;
+  }
+  .connecting_with_left_info .common_btn {
+    margin: 20px auto 0;
+  }
+  /*********************  Connecting with Section CSS End *********************/
+
+  /*********************  Variety Of Workouts Section CSS Start *********************/
+  .variety_of_info > .sub_heading {
+    margin: 10px 0 25px;
+  }
+  /*********************  Variety Of Workouts Section CSS End *********************/
+  
+  /*********************  Variety Of Workouts Section CSS Start *********************/
+  .workouts_img{
+    padding: 8px;
+  }
+  /*********************  Variety Of Workouts Section CSS End *********************/
+}
+@media screen and (max-width: 575px) {
+  /*************  Home banner section CSS Start *************/
+  body {
+    padding: 120px 0 0;
+  }
+  .home_banner_section .common_btn {
+    min-width: 200px;
+  }
+  .common_btn {
+    width: 200px;
+    min-width: 200px;
+  }
+  .banner_50_right {
+    height: unset;
+  }
+  .banner_50_left > p.home_dec {
+    font-size: 14px;
+    max-width: 345px;
+  }
+  .star_section > p {
+    font-size: 12px;
+  }
+  .five_star i {
+    font-size: 14px;
+  }
+  .banner_50_left > p.home_dec {
+    margin-bottom: 30px;
+  }
+  .home_banner_img img {
+    display: block;
+  }
+  .menu_right_btn p {
+    font-size: 14px;
+  }
+  /*************  Home banner section CSS End *************/
+
+  /*************  Counte Section CSS Start *************/
+  .features_inner_section .cm_col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .features_inner_section .cm_row .cm_col:nth-child(n + 2) {
+    margin-top: 30px;
+  }
+  .features_info {
+    display: flex;
+    align-items: center;
+  }
+  .features_info .features_sub_title {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .features_icon {
+    min-width: 56px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .features_section {
+    padding: 40px 0;
+  }
+  /*************  Counte Section CSS End *************/
+
+  .high_intensity_section {
+    background-image: url(../image/mobile_hero-bg.png);
+    padding: 30px 0 500px;
+    background-position: right bottom;
+  }
+  .black_btn {
+    background-color: #ff034a;
+    border-color: #ff034a;
+  }
+  .black_btn:hover {
+    color: #ff034a;
+    background-color: transparent;
+  }
+
+  /*************  workout Section Section CSS Start *************/
+  .workout_list li:nth-child(odd) {
+    width: 65%;
+  }
+  .workout_list li:nth-child(even) {
+    width: 35%;
+  }
+  .pr_text_color {
+    font-size: 12px;
+  }
+  .common_inner_title h3 {
+    font-size: 22px;
+  }
+  .workout_left_section .heading_mar {
+    margin: 12px 0 15px;
+  }
+  .workout_list li:nth-child(n + 3) {
+    margin-top: 12px;
+  }
+  .workout_section {
+    padding: 50px 0 0px;
+  }
+  .workout_list {
+    margin: 20px 0;
+  }
+  /*************  workout Section Section CSS End *************/
+
+  /*************  Meet The Trainers Section CSS End *************/
+  .meet_the_trainer_section {
+    padding: 50px 0;
+  }
+  /*************  Meet The Trainers Section CSS End *************/
+
+  /*********************  Commit To Getting CSS start *********************/
+  .join_our_fitness_wrapper {
+    padding: 50px 0 0;
+  }
+  .join_btn {
+    margin-top: 30px;
+  }
+  .footer-wrapper,
+  .faq_wrapper {
+    padding: 50px 0;
+  }
+  .faq_row {
+    padding: 20px 0;
+  }
+  /*********************  Commit To Getting CSS End *********************/
+
+  /*********************  Plan Section CSS Start *********************/
+  .fg_col {
+    width: 100%;
+  }
+  .fg_col + .fg_col {
+    margin-top: 20px;
+  }
+  .select_your_plan_box {
+    text-align: center;
+  }
+  .online_exc_label p span {
+    display: none;
+  }
+  .commit_to_getting_wrapper {
+    padding-top: 50px;
+  }
+  /*********************  Plan Section CSS End *********************/
+
+  /*********************  Connecting with Section CSS Start *********************/
+  .connecting_with_left_info.connecting_with_col{
+    margin-top: 20px;
+  }
+  .connecting_with_col .common_inner_title h3, .connecting_with_col .sub_heading{
+    text-align: center;
+  }
+  .connecting_with_col .sub_heading + .sub_heading {
+    margin: 15px 0 0;
+  }
+  .connecting_with_left_info .common_btn {
+    margin-top: 15px;
+  }
+  .connecting_with_section,
+  .variety_of_workouts_section {
+    padding: 50px 0 0;
+  }
+  /*********************  Connecting with Section CSS End *********************/
+  
+  /*********************  Variety Of Workouts Section CSS Start *********************/
+  .workouts_img{
+    padding: 5px;
+  }
+  .variety_of_workouts_inner_section .workouts_slider_1 .slick-list,
+  .variety_of_workouts_inner_section .workouts_slider_3 .slick-list{
+    overflow: hidden;
+  }
+  .workouts_slider_1 .slick-list,
+  .workouts_slider_3 .slick-list{
+    left: 0vw;
+  }
+  .workouts_slider_2 .slick-list{
+    left: 6vw;
+  }
+  /*********************  Variety Of Workouts Section CSS End *********************/
+}
+@media screen and (max-width: 480px) {
+  .high_intensity_section {
+    padding: 30px 0 400px;
+  }
+  .header_common_btn {
+    min-width: 160px;
+    font-size: 14px;
+  }
+  header {
+    padding: 16px 0;
+  }
+  body {
+    padding: 109px 0 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .common_what_people_box .common_desc p {
+    font-size: 12px;
+  }
+  .common_what_people_box .common_desc {
+    margin: 15px 0;
+  }
+  .common_star_icon span {
+    font-size: 14px;
+  }
+  .radio-label {
+    padding: 33px 0 0;
+  }
+  .radio input[type="radio"] + .radio-label:before {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .credit_title svg {
+    width: 26px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .high_intensity_section {
+    padding: 30px 0 340px;
+  }
+  .join_our_fitness_wrapper {
+    padding: 45px 0 0;
+  }
+  .syp_row {
+    padding: 45px 0;
+  }
+  .join_our_fitness_wrapper {
+    padding: 45px 0 0;
+  }
+  .commit_to_getting_wrapper {
+    padding-top: 45px;
+  }
+  /*********************  Connecting with Section CSS Start *********************/
+  .connecting_with_section,
+  .variety_of_workouts_section {
+    padding: 45px 0 0;
+  }
+  /*********************  Connecting with Section CSS End *********************/
+}
+@media screen and (max-width: 367px) {
+  /*************  workout Section Section CSS Start *************/
+  .big_text_title {
+    font-size: 50px;
+  }
+  .workout_list li:nth-child(odd),
+  .workout_list li:nth-child(even) {
+    width: 100%;
+  }
+  .workout_list li:nth-child(n + 2) {
+    margin-top: 12px;
+  }
+  .header_common_btn {
+    min-width: 150px;
+  }
+  .radio + .radio {
+    margin-left: 20px;
+  }
+  .credit_title svg {
+    margin-right: 12px;
+  }
+  /*************  workout Section Section CSS End *************/
+}
+
+@media screen and (min-width: 1000px) {
+  .common_inner_title {
+    margin-bottom: 25px;
+  }
+  .meet_cm_row {
+    margin-bottom: 25px;
+  }
+}
+
+.img-caption {
+  transform: translateY(-30px);
+  background: #000000d4;
+  color: #fff;
+  padding: 5px;
+}
+
+.announcement-bar {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
